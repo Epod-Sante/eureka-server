@@ -7,7 +7,6 @@ plugins {
 group = 'ca.uqtr'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
@@ -27,8 +26,8 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    compile group: 'org.springframework.retry', name: 'spring-retry', version: '1.2.5.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.2.2.RELEASE'
+    //compile group: 'org.springframework.retry', name: 'spring-retry', version: '1.2.5.RELEASE'
+    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.2.2.RELEASE'
     // compile group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '2.2.1.RELEASE'
 
 }
