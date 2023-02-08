@@ -12,3 +12,7 @@ CMD ["java","-jar","/opt/pod-isante/eureka/eureka-server.jar"]
 #
 #docker pull lahcenezinnour/eureka-docker-img:latest
 #docker run -p 8761:8761 -t lahcenezinnour/eureka-docker-img:latest
+
+#docker build -t eureka-docker-img .
+#docker tag eureka-docker-img lahcenezinnour/eureka-docker-img
+#docker push lahcenezinnour/eureka-docker-img
